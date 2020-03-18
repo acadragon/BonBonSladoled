@@ -4,7 +4,7 @@
       "id": "ukus_1",
       "name": "Cokolada",
       "type": "Mlecni",
-      "src": "../server/slike/cokolada.jpg",
+      "src": "../server/slike/cokolada.png",
       "price": 120,
       "ingridients": ["cokolada", "jaja", "mleko"]
     },
@@ -12,7 +12,7 @@
       "id": "ukus_2",
       "name": "Vanila",
       "type": "Mlecni",
-      "src": "../server/slike/vanila.jpg",
+      "src": "../server/slike/vanila.png",
       "price": 90,
       "ingridients": ["vanila", "jaja", "gluten"]
     },
@@ -20,7 +20,7 @@
       "id": "ukus_3",
       "name": "Borovnica",
       "type": "Vocni",
-      "src": "../server/slike/borovnica.jpg",
+      "src": "../server/slike/borovnica.png",
       "price": 130,
       "ingridients": ["borovnica", "limun", "mleko"]
     },
@@ -28,7 +28,7 @@
       "id": "ukus_4",
       "name": "Kokos",
       "type": "Mlecni",
-      "src": "../server/slike/kokos.jpg",
+      "src": "../server/slike/kokos.png",
       "price": 80,
       "ingridients": ["kokos", "secer", "mleko", "Jaja"]
     },
@@ -36,7 +36,7 @@
       "id": "ukus_5",
       "name": "Kruska",
       "type": "Vocni",
-      "src": "../server/slike/kruska.jpg",
+      "src": "../server/slike/kruska.png",
       "price": 140,
       "ingridients": ["kruska", "emulgatori"]
     },
@@ -44,7 +44,7 @@
       "id": "ukus_6",
       "name": "Indijski orah",
       "type": "Posni",
-      "src": "../server/slike/indijskiorah.jpg",
+      "src": "../server/slike/indijskiorah.png",
       "price": 150,
       "ingridients": ["indijski orah", "secer"]
     },
@@ -52,7 +52,7 @@
       "id": "ukus_7",
       "name": "Jagoda",
       "type": "Vocni",
-      "src": "../server/slike/jagoda.jpg",
+      "src": "../server/slike/jagoda.png",
       "price": 80,
       "ingridients": ["jagoda", "limun", "mleko", "jaja"]
     },
@@ -60,7 +60,7 @@
       "id": "ukus_8",
       "name": "Kapucino",
       "type": "Mlecni",
-      "src": "../server/slike/kapucino.jpg",
+      "src": "../server/slike/kapucino.png",
       "price": 100,
       "ingridients": ["kafa", "kaucino", "mleko", "jaja"]
     },
@@ -68,7 +68,7 @@
       "id": "ukus_9",
       "name": "Oreo",
       "type": "Mlecni",
-      "src": "../server/slike/oreo.jpg",
+      "src": "../server/slike/oreo.png",
       "price": 140,
       "ingridients": ["oreo", "keks", "jaja", "mleko"]
     },
@@ -77,14 +77,14 @@
       "name": "Visnja",
       "type": "Vocni",
       "price": 90,
-      "src": "../server/slike/visnja.jpg",
+      "src": "../server/slike/visnja.png",
       "ingridients": ["visnja", "secer"]
     },
     {
       "id": "ukus_11",
       "name": "Orah",
       "type": "Posni",
-      "src": "../server/slike/orah.jpg",
+      "src": "../server/slike/orah.png",
       "price": 130,
       "ingridients": ["orah", "limun", "secer"]
     },
@@ -92,7 +92,7 @@
       "id": "ukus_12",
       "name": "Pistaci",
       "type": "Mlecni",
-      "src": "../server/slike/pistaci.jpg",
+      "src": "../server/slike/pistaci.png",
       "price": 150,
       "ingridients": ["pistaci", "secer", "mleko", "jaja"]
     },
@@ -100,7 +100,7 @@
       "id": "ukus_13",
       "name": "Mak",
       "type": "Mlecni",
-      "src": "../server/slike/mak.jpg",
+      "src": "../server/slike/mak.png",
       "price": 90,
       "ingridients": ["mak", "orah", "jaja", "mleko"]
     },
@@ -108,7 +108,7 @@
       "id": "ukus_14",
       "name": "Tiramisu",
       "type": "Mlecni",
-      "src": "../server/slike/tiramisu.jpg",
+      "src": "../server/slike/tiramisu.png",
       "price": 110,
       "ingridients": ["kafa", "secer", "mleko"]
     },
@@ -116,7 +116,7 @@
       "id": "ukus_15",
       "name": "Ribizla",
       "type": "Vocni",
-      "src": "../server/slike/ribizla.jpg",
+      "src": "../server/slike/ribizla.png",
       "price": "130",
       "ingridients": ["rizibzla", "limun", "secer"]
     },
@@ -124,7 +124,7 @@
       "id": "ukus_16",
       "name": "Rubi",
       "type": "Mlecni",
-      "src": "../server/slike/rubi.jpg",
+      "src": "../server/slike/rubi.png",
       "price": 100,
       "ingridients": ["cokolada", "secer", "mleko", "jaja"]
     }
