@@ -1,0 +1,53 @@
+{
+  "description": "Newsfeed",
+  "data": [
+    {
+      "id": "1",
+      "date": "29.02.2019",
+      "name": "Svečano Otvaranje",
+      "type": "News",
+      "src": "https://www.kindpng.com/picc/m/176-1761691_emoji-ice-cream-shop-hd-png-download.png",
+      "news": "Danas smo otvorili prvu online prodavnicu preko koje možete naručiti sladolede da vam stignu na kućnu adresu. Ovo je prva prodavnica sladoleda u Evropi koja vam nudi pored prodaje na licu mesta, mogućnost da poručite sladolede od svoje kuće."
+    },
+    {
+      "id": "2",
+      "date": "16.03.2019",
+      "name": "Novi Ukusi",
+      "type": "News",
+      "src": "https://www.spanishschoolvalencia.com/wp-content/uploads/2018/05/icecream-shop-valencia.jpg",
+      "news": "Od danas nudimo nove ukuse za sladolede, koje možete dobiti po promotivnim cenama koristeći ovaj kod BonBonX10 u komentaru. Požurite dok traju zalihe."
+    },
+    {
+      "id": "3",
+      "date": "30.06.2019",
+      "name": "Otvaranje nove radnje",
+      "type": "News",
+      "src": "https://portsoyicecream.co.uk/site/wp-content/uploads/ice-cream-collection-1600x1067.jpg",
+      "news": "Nova radnja se otvara 13.07.2019 godine u Bloku 45 i imaćete priliku da probate nove ukuse uključujući pohovani sladoled dok traju zaihe. Poručite sada."
+    },
+    {
+      "id": "4",
+      "date": "24.09.2019",
+      "name": "Sladoled protiv depresije",
+      "type": "News",
+      "src": " https://www.psychologytoday.com/sites/default/files/styles/article-top/public/blogs/32058/2011/07/70279-60811.jpg",
+      "news": "Da li ste znali da određeni doktori preporučuju umesto konzumiranja lekova za depresiju da pojedete dve kugle sladoleda dnevno. Sladoled povećava lučenje dopamina u mozgu i čini vas srećnim. Jedite sladoled i bićete srećni."
+    },
+    {
+      "id": "5",
+      "date": "07.01.2020",
+      "name": "Pojava Corona virusa",
+      "type": "News",
+      "src": "https://laughingsquid.com/wp-content/uploads/2017/08/yaskawa-kun-ice-cream-robot-japan.jpg",
+      "news": "Zbog pojave novog Corona virusa, naša kompanija je preduzela mere kako bi se smanjio ljudski kontakt sa vašim sladoledom. Naš sladoled će od 15.01.2020 godine biti pakovan isklučivo od strane robota kako bi se smanjio kontakt vašeg sladoleda sa drugim ljudima."
+    },
+    {
+      "id": "6",
+      "date": "25.02.2020",
+      "name": "Važno obaveštenje",
+      "type": "News",
+      "src": "https://www.mtlblog.com/u/2020/03/10/c5d69d68ef61f3e7e5ef8aa497704aff.png_1200x630.png",
+      "news": "Zbog epidemije Corona virusa, naša kompanija će pojačati sigurnosne mere i higijenu, kao i obaveznu proveru naših radnika. Naši kuriri ne dolaze u kontakt sa vašim sladoledom već vam predaju kutiju u kojoj se nalazi isti zaštićen od spoljašnog sveta kako bi mogli da uživate u njegovom bogatom ukus. Promo kod za 10% popusta KORONA10 upišite u komentaru."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1.00, minimum-scale=1.0">
+    <title>BonBon Sladoled</title>
+    <meta name="description"
+        contetn="Najbolji domaci sladoled u gradu. Online prodavnica rucno pravljenih ukusa. Cokolada, vanila, jagoda, pistaci, orah, napravi svoj kornet, naruci odma!" />
+    <meta name="keywords" content="sladoled, prodaja, kornet, domaci sladoeld, slatkisi, cokolada">
+    <meta name="author" content="Aleksandar Ivancic">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <script src="./skripte/app.js"></script>
+</head>
+
+<body>
+    <div class="icecream">
+        <img id="cone" src="../server/slike/cone.png" />
+        <div id="scoops"></div>
+        <div class="order">Dodaj</div>
+    </div>
+    <div id="cart">Kupi <img class="search-icon" src="../server/slike/cart.png" /></div>
+    </div>
+    <div class="heading">
+        <i class="heading-rights">Copyright &copy; 2020 <a href="autor.html" class="heading-link">Aleksandar
+                Ivancic</a>. All Rights Reserved</i>
+    </div>
+    <a href="./index.html" style="text-decoration:none">"<h1 id="title">BonBon Sladoled</h1></a>
+    <div class="filter">
+        <div class="search">
+            <input id="search-input" placeholder="Pretrazi slatkise" />
+            <img class="search-icon" src="../server/slike/search.png" />
+        </div>
+        <div class="search">
+            <select class="options" id="filter-input">
+                <option value="svi">Svi</option>
+                <option value="mlecni">Mlecni</option>
+                <option value="vocni">Vocni</option>
+                <option value="posni">Posni</option>
+            </select>
+            <select class="options" id="sort-input">
+                <option value="nesortirano">Nesortirano</option>
+                <option value="cenaasc">Cena rastuca</option>
+                <option value="cenadesc">Cena opadajuca</option>
+                <option value="nazivasc">Naziv rastuce</option>
+                <option value="nazivdesc">Naziv opadajuce</option>
+            </select>
+        </div>
+    </div>
+    <div class="list-holder">
+        <div id="list"></div>
+    </div>
+    <div id="order-popup" class="hidden">
+        <div id="order-form">
+            <div id="order-title">
+                <p>Ukusi</p>
+                <p>Kom</p>
+                <p>Jed Cena</p>
+                <p>Total</p>
+            </div>
+            <div id="order-items">
+            </div>
+            <div class="total">
+                <p>Total:</p>
+                <p id="total-price">-</p>
+            </div>
+            <form id="order-forma" action="order" name="order" data-netlify="true" method="POST">
+                <input name="order" value="sladze" type="hidden" />
+                <input type="text" name="name" placeholder="Ime i Prezime" />
+                <input type="address" name="address" placeholder="Adresa" />
+                <input type="email" name="email" placeholder="E-mail" />
+                <textarea name="sladoledi" placeholder="Komentar"></textarea>
+                <div class="button-wrapper">
+                    <button type="button" id="cancel-button">Nazad</button>
+                    <button id="order-button" type="submit">Naruci</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <script src="./skripte/pretraga.js"></script>
+</body>
+
+</html>

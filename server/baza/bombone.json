@@ -1,0 +1,132 @@
+{
+  "description": "Ukusi za BonBon sladolede",
+  "data": [{
+      "id": "ukus_1",
+      "name": "Cokolada",
+      "type": "Mlecni",
+      "src": "../server/slike/cokolada.jpg",
+      "price": 120,
+      "ingridients": ["cokolada", "jaja", "mleko"]
+    },
+    {
+      "id": "ukus_2",
+      "name": "Vanila",
+      "type": "Mlecni",
+      "src": "../server/slike/vanila.jpg",
+      "price": 90,
+      "ingridients": ["vanila", "jaja", "gluten"]
+    },
+    {
+      "id": "ukus_3",
+      "name": "Borovnica",
+      "type": "Vocni",
+      "src": "../server/slike/borovnica.jpg",
+      "price": 130,
+      "ingridients": ["borovnica", "limun", "mleko"]
+    },
+    {
+      "id": "ukus_4",
+      "name": "Kokos",
+      "type": "Mlecni",
+      "src": "../server/slike/kokos.jpg",
+      "price": 80,
+      "ingridients": ["kokos", "secer", "mleko", "Jaja"]
+    },
+    {
+      "id": "ukus_5",
+      "name": "Kruska",
+      "type": "Vocni",
+      "src": "../server/slike/kruska.jpg",
+      "price": 140,
+      "ingridients": ["kruska", "emulgatori"]
+    },
+    {
+      "id": "ukus_6",
+      "name": "Indijski orah",
+      "type": "Posni",
+      "src": "../server/slike/indijskiorah.jpg",
+      "price": 150,
+      "ingridients": ["indijski orah", "secer"]
+    },
+    {
+      "id": "ukus_7",
+      "name": "Jagoda",
+      "type": "Vocni",
+      "src": "../server/slike/jagoda.jpg",
+      "price": 80,
+      "ingridients": ["jagoda", "limun", "mleko", "jaja"]
+    },
+    {
+      "id": "ukus_8",
+      "name": "Kapucino",
+      "type": "Mlecni",
+      "src": "../server/slike/kapucino.jpg",
+      "price": 100,
+      "ingridients": ["kafa", "kaucino", "mleko", "jaja"]
+    },
+    {
+      "id": "ukus_9",
+      "name": "Oreo",
+      "type": "Mlecni",
+      "src": "../server/slike/oreo.jpg",
+      "price": 140,
+      "ingridients": ["oreo", "keks", "jaja", "mleko"]
+    },
+    {
+      "id": "ukus_10",
+      "name": "Visnja",
+      "type": "Vocni",
+      "price": 90,
+      "src": "../server/slike/visnja.jpg",
+      "ingridients": ["visnja", "secer"]
+    },
+    {
+      "id": "ukus_11",
+      "name": "Orah",
+      "type": "Posni",
+      "src": "../server/slike/orah.jpg",
+      "price": 130,
+      "ingridients": ["orah", "limun", "secer"]
+    },
+    {
+      "id": "ukus_12",
+      "name": "Pistaci",
+      "type": "Mlecni",
+      "src": "../server/slike/pistaci.jpg",
+      "price": 150,
+      "ingridients": ["pistaci", "secer", "mleko", "jaja"]
+    },
+    {
+      "id": "ukus_13",
+      "name": "Mak",
+      "type": "Mlecni",
+      "src": "../server/slike/mak.jpg",
+      "price": 90,
+      "ingridients": ["mak", "orah", "jaja", "mleko"]
+    },
+    {
+      "id": "ukus_14",
+      "name": "Tiramisu",
+      "type": "Mlecni",
+      "src": "../server/slike/tiramisu.jpg",
+      "price": 110,
+      "ingridients": ["kafa", "secer", "mleko"]
+    },
+    {
+      "id": "ukus_15",
+      "name": "Ribizla",
+      "type": "Vocni",
+      "src": "../server/slike/ribizla.jpg",
+      "price": "130",
+      "ingridients": ["rizibzla", "limun", "secer"]
+    },
+    {
+      "id": "ukus_16",
+      "name": "Rubi",
+      "type": "Mlecni",
+      "src": "../server/slike/rubi.jpg",
+      "price": 100,
+      "ingridients": ["cokolada", "secer", "mleko", "jaja"]
+    }
+  ]
+}
