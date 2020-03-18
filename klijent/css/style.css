@@ -1,0 +1,512 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  right: 0;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1rem;
+  padding-right: 2.5rem;
+  color: #279dcc;
+  font-weight: bold;
+  cursor: pointer;
+  bottom: 2rem;
+}
+
+.list-holder {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+#list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  border-radius: 0.5rem;
+  padding: 1rem 8rem;
+}
+
+#title {
+  text-align: center;
+  font-family: "Oleo Script Swash Caps", cursive;
+  color: #27b4cc;
+  display: flex;
+  font-size: 6rem;
+  justify-content: center;
+  text-shadow: -2px 8px 12px #000000f2;
+  margin: 2rem 0;
+}
+
+#search-input,
+#order-form > form > input,
+#order-form > form > textarea {
+  border: none;
+  border-bottom: 2px solid lightgray;
+  width: 80%;
+  max-width: 30rem;
+  height: 2rem;
+}
+
+#search-input:focus,
+#order-form > form > input:focus,
+#order-form > form > textarea:focus
+.options {
+  border: none;
+  border-bottom: 2px solid #279dcc;
+  box-shadow: none;
+  outline: none;
+}
+
+#order-form > form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.search-icon {
+  height: 20px;
+  width: 20px;
+  margin-left: -30px;
+  opacity: 0.5;
+}
+
+.kartica {
+  flex: 0;
+  display: flex;
+  margin: 0.5rem;
+  flex-direction: column;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  box-shadow: -1px 7px 12px 2px #0000005c;
+  position: relative;
+}
+
+.news-kartica {
+  flex: 0;
+  flex-wrap: wrap;
+  display: flex;
+  margin: 0.5rem;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  border-radius: 6px;
+  box-shadow: -1px 7px 12px 2px #0000005c;
+  position: relative;
+  max-height: 30em;
+  min-width: 15em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-bottom: 1rem;
+}
+
+.news-read-more{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: whitesmoke;
+  font-family: sans-serif;
+  padding-left: 1rem;
+}
+
+.add:hover {
+  opacity: 1;
+}
+
+.add:active {
+  background-color: rgba(204, 195, 62, 0.9);
+  transition: 500ms;
+}
+
+.slika {
+  max-width: 150px;
+  padding: 5px;
+}
+
+.slika-news {
+  width: 100%;
+  height: 50%;
+  flex: 1;
+  object-fit: cover;
+}
+
+.news-text {
+  align-self: flex-end;
+  padding: 1rem;
+}
+
+.add {
+  transition: 200ms;
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 7px;
+  font-size: 60px;
+  cursor: pointer;
+  background-color: rgba(71, 157, 204, 0.68);
+  text-shadow: -2px 3px 5px #000000f2;
+}
+
+.kartica-label {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: center;
+}
+
+.kartica-label-news {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.icecream {
+  width: 25%;
+  max-width: 150px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 5px;
+}
+
+#cone {
+  width: 100%;
+  height: auto;
+}
+.scoops {
+  display: flex;
+  justify-content: space-around;
+}
+.scoop {
+  animation-duration: 3s;
+  position: absolute;
+  top: -15vh;
+  width: 100%;
+}
+
+.scoop > img {
+  width: 100%;
+}
+
+.s2 {
+  top: -21vh;
+  animation-delay: 1s;
+}
+
+.Kokos {
+  filter: grayscale(1) brightness(2.3) contrast(0.5);
+}
+
+.Indijski {
+  filter: grayscale(0.7) brightness(2.3) contrast(0.5);
+}
+
+.Borovnica {
+  filter: hue-rotate(-85deg) !important;
+}
+
+.Cokolada {
+  filter: hue-rotate(0deg) !important;
+}
+
+.Tiramisu {
+  filter: hue-rotate(0deg) brightness(1.3) !important;
+}
+
+.Vanila {
+  filter: grayscale(0.9) brightness(2) contrast(0.5) sepia(1.1);
+}
+
+.Rubi {
+  filter: brightness(2) contrast(0.7);
+}
+
+.Kruska {
+  filter: hue-rotate(1deg) grayscale(0) brightness(1.4) !important;
+}
+
+.Jagoda {
+  filter: hue-rotate(-30deg) saturate(2.6) !important;
+}
+
+.Ribizla {
+  filter: hue-rotate(-25deg) saturate(2.8) brightness(0.7) !important;
+}
+
+.Visnja {
+  filter: hue-rotate(-25deg) saturate(2.8) brightness(0.7) contrast(1.4) !important;
+}
+
+.Pistaci {
+  filter: hue-rotate(45deg) brightness(1.5);
+}
+
+.Mak {
+  filter: grayscale(1) contrast(1.2) brightness(1.7);
+}
+
+.Kapucino {
+  filter: grayscale(1) contrast(1.2) brightness(1.4) sepia(1.2);
+}
+
+.pad {
+  animation-name: pad;
+  animation-timing-function: cubic-bezier(0.99, 0.1, 1, 0.89);
+}
+@keyframes pad {
+  0% {
+    transform: scale(0.8, 1) translateY(-250px);
+    opacity: 0;
+  }
+  10% {
+    transform: scale(1, 1) translateY(0);
+    opacity: 1;
+  }
+  30% {
+    transform: scale(1, 1) translateY(0px);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1) translateY(0px);
+    opacity: 1;
+  }
+}
+
+.options {
+  border: none;
+  border-bottom: 2px solid lightgray;
+  width: 15%;
+  padding: 0.5rem;
+  background: transparent;
+  height: 2rem;
+  margin: 0.5rem;
+  color: gray;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+}
+
+.heading-link {
+  font-family: "Oleo Script Swash Caps", cursive;
+  color: #259cb1;
+}
+
+.order {
+  font-family: "Oleo Script Swash Caps", cursive;
+  color: #259cb1;
+  font-size: 1.7rem;
+  text-align: center;
+  text-shadow: 0px 2px 2px #000000f2;
+  transition: 200ms;
+  cursor: pointer;
+}
+
+.order:hover {
+  color: rgb(204, 195, 62);
+}
+
+.scoop-click {
+  width: 100%;
+  text-align: center;
+  color: gray;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content-item {
+  padding: 2rem;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#order-popup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#order-form {
+  display: flex;
+  width: 80%;
+  max-width: 30rem;
+  height: auto;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 8px;
+  font-family: sans-serif;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#order-button {
+  background-color: rgba(239, 227, 53, 0.6);
+}
+
+#cancel-button {
+  background-color: transparent;
+}
+
+#order-form button {
+  flex: 1;
+  display: flex;
+  margin: 1rem;
+  flex-direction: column;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  box-shadow: -1px 7px 12px 2px #0000005c;
+  position: relative;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  margin-top: 2rem;
+  transform: all 200ms;
+}
+
+#order-form button:hover {
+  background-color: rgba(71, 157, 204, 0.68);
+}
+
+#order-form button:active {
+  background-color: rgba(239, 227, 53, 0.8);
+}
+
+.button-wrapper {
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+#order-items {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-height: 30vh;
+  overflow-y: auto;
+}
+
+#order-items > div {
+  display: flex;
+}
+
+#order-title {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#order-items > .item {
+  background: #0000000d;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0.2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-family: sans-serif;
+}
+
+#order-items > .sub-item {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+}
+
+#order-items > .sub-item > p {
+  margin: 0;
+  padding: 0.3rem;
+  flex: 1;
+}
+
+#order-form > .total {
+  display: flex;
+  width: 100%;
+  background: #f8e65925;
+  justify-content: space-between;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-family: sans-serif;
+}
+
+.item > p {
+  padding: 0;
+  margin: 0;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.noScroll {
+  overflow: hidden;
+}
+
+#remove {
+  cursor: pointer;
+}
+
+#cart{
+  position: absolute;
+  padding: 1rem;
+  right: 0;
+  font-family: "Oleo Script Swash Caps", cursive;
+  color: #259cb1;
+  font-size: 1.7rem;
+  text-align: center;
+  text-shadow: 0px 2px 2px #000000f2;
+  transition: 200ms;
+  cursor: pointer;
+}
+
+#cart img{
+  width: 40px;
+  height: 40px;
+}
