@@ -514,7 +514,7 @@ body {
 #futer {
 	background-color: #000;
 	color: #fff;
-	text-align: center;
-	font-size: 30px;
-	padding: 40px 0px;
+	justify-content: space-between;
+	font-size: 20px;
+	padding: 10px 10px;
 }
