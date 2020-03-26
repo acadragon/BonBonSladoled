@@ -4,7 +4,7 @@ var scoops = [];
 var sladoledi = [];
 
 var sladolediUKorpi = [];
-var sladoledUIzdradi = {};
+var sladoledUIzdradi = {kugle:[]};
 
 function ucitaj(resurs) {
   $.ajax({
@@ -91,8 +91,8 @@ function podesiKorpu() {
   if (!korpa) alert("Local storage nije podrzan");
   var porudzbine = korpa.getItem("porudzbine");
   if (porudzbine) {
-    sladolediUKorpi = JSON.parse(korpa.getItem("porudzbine"));
-    sladoledUIzdradi = JSON.parse(korpa.getItem("sladoledUIzradi"));
+    sladolediUKorpi = JSON.parse(korpa.getItem("porudzbine")) || sladolediUKorpi;
+    sladoledUIzdradi = JSON.parse(korpa.getItem("sladoledUIzradi")) || sladoledUIzdradi;
     ucitajSladoledUIzradi();
     $("#order-forma").submit(function(e) {
       e.preventDefault();
@@ -118,7 +118,7 @@ function podesiKorpu() {
 }
 
 function ucitajSladoledUIzradi() {
-  if (sladoledUIzdradi.kugle) {
+  if (sladoledUIzdradi && sladoledUIzdradi.kugle) {
     sladoledUIzdradi.kugle.forEach(kugla => {
       this.addScoop(kugla, false);
     });

@@ -5,7 +5,7 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: rgb(255, 179, 255);
+  /* background-color: rgb(255, 179, 255); */
 }
 
 .search {
@@ -348,6 +348,11 @@ body {
 .content {
   display: flex;
   flex-wrap: wrap;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 3px grey;
+  margin: 1rem;
+  max-width: 80%;
+  align-self: center;
 }
 
 .content-item {
@@ -356,6 +361,8 @@ body {
   width: 100%;
   height: 100%;
   text-align: center;
+  max-height: 50vh;
+  object-fit: contain;
 }
 
 #order-popup {
@@ -516,11 +523,40 @@ body {
 	color: #fff;
 	justify-content: space-between;
 	font-size: 20px;
-	padding: 10px 10px;
+  padding: 10px 10px;
+  z-index: 1;
+  display: flex;
+  flex-flow: column;
+  margin-top: 40vh;
 }
+
 .futerd {
-	width:100%;	
+  display: flex;
+  justify-content: space-evenly;
 }
+
+.futerd > a{
+ padding: 1rem;
+ text-decoration: none;
+ color: whitesmoke;
+ font-family: sans-serif;
+}
+
+.futerd > a:hover{
+  color: #279dcc;
+ }
+ 
+ .social > img{
+   width: 2.5rem;
+ }
+
+ .social {
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+ }
+
 #futer2 {
-	text-align:center;	
+  display: flex;
+  justify-content: center;
 }
