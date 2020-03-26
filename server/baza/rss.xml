@@ -1,0 +1,23 @@
+<rss version="2.0">
+<channel>
+<title>BonBon shop home page</title>
+<link>https://acadragon.github.io/BonBonSladoled/klijent/index.html</link>
+<description>Order now your dream icecream</description>
+<item>
+<title>Our latest news</title>
+<link>
+https://acadragon.github.io/BonBonSladoled/klijent/newsfeed.html
+</link>
+<description>
+Read all about latest news and promotions
+</description>
+</item>
+<item>
+<title>About Auothor</title>
+<link>
+https://acadragon.github.io/BonBonSladoled/klijent/autor.html
+</link>
+<description>Read about our author and owner of the BonBon shop</description>
+</item>
+</channel>
+</rss>
