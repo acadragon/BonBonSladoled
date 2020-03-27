@@ -5,7 +5,7 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(white, rgb(255, 179, 255));
+  background-image: linear-gradient(white, rgb(255, 179, 255), aqua);
 }
 
 .search {
