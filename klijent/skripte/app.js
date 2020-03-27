@@ -16,7 +16,18 @@ function ucitaj(resurs) {
     }
   });
 }
+$( "#79" ).blur(function() {
 
+let re = /^(([^<>()[]\.,;:\s@"]+(.[^<>()[]\.,;:\s@"]+)*)|(".+"))@(([[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}])|(([a-zA-Z-0-9]+.)+[a-zA-Z]{2,}))$/;
+
+let isValid = re.test($( "#79" ).val());
+
+If (isValid) {
+$( "#79" ).css("color", "green");
+} else {
+$( "#79" ).css("color", "red");
+}
+});
 function prikazi(data) {
   $("#list").empty();
   for (var i = 0; i < data.length; i++) {
