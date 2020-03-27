@@ -63,6 +63,7 @@ body {
   border-bottom: 2px solid lightgray;
   width: 80%;
   max-width: 30rem;
+  background: transparent;
   height: 2rem;
 }
 
