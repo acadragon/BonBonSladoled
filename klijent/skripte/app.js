@@ -197,6 +197,6 @@ $( "#79" ).css("color", "green");
 else {
 $( "#79" ).css("color", "red");
 }
-};
+}};
 ucitaj("../server/baza/bombone.json");
 
