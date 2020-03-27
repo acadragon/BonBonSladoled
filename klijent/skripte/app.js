@@ -193,10 +193,10 @@ let isValid = re.test($( "#79" ).val());
 
 If (isValid) {
 $( "#79" ).css("color", "green");
-} 
-else {
+} else {
 $( "#79" ).css("color", "red");
 }
-}};
+
+});
 ucitaj("../server/baza/bombone.json");
 
