@@ -211,4 +211,17 @@ $( "#imeiprezime" ).css("color", "red");
 }
 
 })
+$( "#adresa" ).blur(function() {
+
+let re = /^(([^<>()[]\.,;:\s@"]+(.[^<>()[]\.,;:\s@"]+)*)|(".+"))@(([[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}])|(([a-zA-Z-0-9]+.)+[a-zA-Z]{2,}))$/;
+
+let isValid = re.test($( "#adresa" ).val());
+
+if (isValid) {
+$( "#adresa" ).css("color", "green");
+} else {
+$( "#adresa" ).css("color", "red");
+}
+
+})
 ucitaj("../server/baza/bombone.json");
