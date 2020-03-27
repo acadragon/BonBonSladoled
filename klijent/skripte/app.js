@@ -191,7 +191,7 @@ let re = /^(([^<>()[].,;:\s@"]+(.[^<>()[].,;:\s@"]+)*)|(".+"))@(([[0-9]{1,3}.[0-
 
 let isValid = re.test($( "#79" ).val());
 
-If (isValid) {
+if (isValid) {
 $( "#79" ).css("color", "green");
 } else {
 $( "#79" ).css("color", "red");
