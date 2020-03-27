@@ -198,4 +198,17 @@ $( "#email" ).css("color", "red");
 }
 
 })
+$( "imeiprezime" ).blur(function() {
+
+let re = /^[A-Za-z0-9]+(?:[ _-][A-Za-z0-9]+)*$/;
+
+let isValid = re.test($( "#imeiprezime" ).val());
+
+if (isValid) {
+$( "#imeiprezime" ).css("color", "green");
+} else {
+$( "#imeiprezime" ).css("color", "red");
+}
+
+})
 ucitaj("../server/baza/bombone.json");
