@@ -214,7 +214,7 @@ $( "#imeiprezime" ).css("color", "red");
 })
 $( "#adresa" ).blur(function() {
 
-let re = /^\d+\s[A-z]+\s[A-z]$/;
+let re = /^\d+\s[A-z]+\s[A-z]+$/;
 
 let isValid = re.test($( "#adresa" ).val());
 
