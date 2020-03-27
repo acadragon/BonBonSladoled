@@ -185,5 +185,17 @@ function ispraziKorpu() {
     korpa.setItem("porudzbine", JSON.stringify([]));
   }
 }
+$( "#email" ).blur(function() {
 
+let re = /^(([^<>()[]\.,;:\s@"]+(.[^<>()[]\.,;:\s@"]+)*)|(".+"))@(([[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}])|(([a-zA-Z-0-9]+.)+[a-zA-Z]{2,}))$/;
+
+let isValid = re.test($( "#email" ).val());
+
+if (isValid) {
+$( "#email" ).css("color", "green");
+} else {
+$( "#email" ).css("color", "red");
+}
+
+})
 ucitaj("../server/baza/bombone.json");
