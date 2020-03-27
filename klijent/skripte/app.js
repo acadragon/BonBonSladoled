@@ -201,7 +201,7 @@ $( "#email" ).css("color", "red");
 })
 $( "#imeiprezime" ).blur(function() {
 
-let re = /^[A-Za-z0-9]+(?:[ _-][A-Za-z0-9]+)*$/;
+let re = /^\s*([A-Za-z]{1,}([\.,] |[-']| ))+[A-Za-z]+\.?\s*$/;
 
 let isValid = re.test($( "#imeiprezime" ).val());
 
