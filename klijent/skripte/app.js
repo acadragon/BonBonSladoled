@@ -198,7 +198,7 @@ $( "#email" ).css("color", "red");
 }
 
 })
-$( "imeiprezime" ).blur(function() {
+$( "#imeiprezime" ).blur(function() {
 
 let re = /^[A-Za-z0-9]+(?:[ _-][A-Za-z0-9]+)*$/;
 
